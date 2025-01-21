@@ -1,49 +1,206 @@
-*{
-  margin: 0;
-  padding: 0;
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
 }
-.header{
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #f4f4f4;
   padding: 10px 20px;
-  background-color: #f4a261;
-  color: #fff;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-  flex-wrap: wrap;
-}
-.image{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-h1{
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 0;
+  border-bottom: 2px solid #ddd;
 }
 
-.navbar{
+.logo {
   display: flex;
   align-items: center;
 }
-.nav-links{
+
+.logo-image {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.restaurant-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-bar ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 15px;
   margin: 0;
   padding: 0;
 }
-.nav-links li a {
+
+.nav-bar a {
   text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
+  color: #333;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color 0.3s;
 }
-.nav-links li a:hover{
-  color: #264653;
+
+.nav-bar a:hover {
+  color: #ff6347;
+}
+
+.home {
+  padding: 20px;
+}
+
+.welcome {
+  margin-bottom: 30px;
+}
+
+.cuisines {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cuisine {
+  text-align: center;
+  width: 200px;
+}
+
+.cuisine-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.menu-section {
+  margin-bottom: 20px;
+}
+
+.menu-section h3 {
+  color: #ff6347;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-section li {
+  margin: 5px 0;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-top: 2px solid #ddd;
+  margin-top: 20px;
+}
+
+.booking-page {
+  padding: 20px;
+  text-align: left;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.booking-form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.booking-form button:hover {
+  background-color: #e5533d;
+}
+
+.confirmation {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.about-us {
+  padding: 20px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+.about-us h2 {
+  color: #ff6347;
+}
+
+.about-us p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.contact-us {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.contact-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.contact-form button:hover:enabled {
+  background-color: #e5533d;
 }

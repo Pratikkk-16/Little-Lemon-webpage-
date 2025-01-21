@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import Header from './Components/Header';
 import Home from './components/Home';
 import Menu from './components/Menu';
 import Reservation from './components/Reservation';

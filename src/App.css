@@ -100,12 +100,12 @@
   margin-top: 20px;
 }
 
-.booking-page {
+.reservation {
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 
-.booking-form {
+.reservation-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -113,12 +113,12 @@
   margin: 0 auto;
 }
 
-.booking-form label {
+.reservation-form label {
   display: flex;
   flex-direction: column;
 }
 
-.booking-form button {
+.reservation-form button {
   background-color: #ff6347;
   color: white;
   border: none;
@@ -127,7 +127,7 @@
   transition: background-color 0.3s;
 }
 
-.booking-form button:hover {
+.reservation-form button:hover {
   background-color: #e5533d;
 }
 

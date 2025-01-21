@@ -23,9 +23,9 @@ function Reservation() {
 
   return (
     <section id="reservation" className="reservation">
-      <h2>Reservation</h2>
+      <h2>Book a Table</h2>
       {formData.isBooked ? (
-        <p>
+        <p className='confirmation'>
           Table booked successfully! Your table number is <strong>{formData.tableNumber}</strong>.
         </p>
       ) : (

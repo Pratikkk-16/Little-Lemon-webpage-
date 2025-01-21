@@ -1,8 +1,8 @@
 function Nav()
 {
 return(
-    <nav>
-        <ul>
+    <nav className="navbar">
+        <ul className="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="#reservation">Reservation</a></li>

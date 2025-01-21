@@ -1,4 +1,7 @@
 import React from 'react';
+import pasta from '../assets/pasta.jpg'
+import greek from '../assets/greek.jpg'
+import turkish from '../assets/turkish.jpg'
 
 function Home() {
   return (
@@ -9,17 +12,17 @@ function Home() {
       </div>
       <div className="cuisines">
         <div className="cuisine">
-          <img src="/images/italian.jpg" alt="Italian Cuisine" className="cuisine-image" />
+          <img src={pasta} alt="Italian Cuisine" className="cuisine-image" />
           <h3>Italian Cuisine</h3>
           <p>Enjoy the rich flavors of Italy with our pasta, pizza, and more.</p>
         </div>
         <div className="cuisine">
-          <img src="/images/turkish.jpg" alt="Turkish Cuisine" className="cuisine-image" />
+          <img src={turkish} alt="Turkish Cuisine" className="cuisine-image" />
           <h3>Turkish Cuisine</h3>
           <p>Delight in the savory and sweet tastes of Turkish delicacies.</p>
         </div>
         <div className="cuisine">
-          <img src="/images/greek.jpg" alt="Greek Cuisine" className="cuisine-image" />
+          <img src={greek} alt="Greek Cuisine" className="cuisine-image" />
           <h3>Greek Cuisine</h3>
           <p>Experience the fresh and vibrant dishes of Greece.</p>
         </div>

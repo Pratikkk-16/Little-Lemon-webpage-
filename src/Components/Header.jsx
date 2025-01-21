@@ -1,10 +1,10 @@
 import React from 'react';
-
+import LightLogo from '../assets/LightLogo.png'
 function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <img src="/logo.png" alt="Little Lemon Logo" className="logo-image" />
+        <img src={LightLogo.png} alt="Little Lemon Logo" className="logo-image" />
         <h1 className="restaurant-name">Little Lemon</h1>
       </div>
       <nav className="nav-bar">
